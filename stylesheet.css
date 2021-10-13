@@ -1,0 +1,47 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(80, 136, 211);
+    color: white;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* リストのCSS */
+ul {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(17, 60, 117)
+}
+
+.nav {
+  list-style: none;
+  width: 120px;
+  text-align: center;
+}
+ 
+.nav li {
+  width: 200px;
+  text-align: center;
+  background-color: #333;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    font-weight: bold;
+    margin: 5px 5px;
+    width: 100%;
+}
