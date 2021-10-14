@@ -27,7 +27,7 @@ ul {
 
 .nav {
   list-style: none;
-  width: 120px;
+  width: 150px;
   text-align: center;
 }
  
@@ -35,13 +35,20 @@ ul {
   width: 200px;
   text-align: center;
   background-color: #333;
+  margin: 0 10px;
 }
 
-li a {
+ul li a {
+    display: block;
+    width: 130px;
+    line-height: 32px;
     text-decoration: none;
     color: #fff;
     background-color: red;
     font-weight: bold;
     margin: 5px 5px;
-    width: 100%;
+}
+
+ul li a:hover {
+    opacity: 0.7;
 }
